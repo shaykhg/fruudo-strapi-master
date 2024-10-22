@@ -1,0 +1,28 @@
+{
+  "connection": "default",
+  "collectionName": "notification",
+  "info": {
+    "name": "notification",
+    "description": "Notification contains important info of a user "
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "text": {
+      "default": "",
+      "type": "string"
+    },
+    "read": {
+      "default": false,
+      "type": "boolean"
+    },
+    "link": {
+      "default": "",
+      "type": "string"
+    },
+    "customer": {
+      "model": "customer"
+    }
+  }
+}

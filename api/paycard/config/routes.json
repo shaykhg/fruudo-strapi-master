@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/paycards",
+      "handler": "Paycard.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/paycards/count",
+      "handler": "Paycard.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/paycards/:_id",
+      "handler": "Paycard.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/paycards",
+      "handler": "Paycard.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/paycards/:_id",
+      "handler": "Paycard.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/paycards/:_id",
+      "handler": "Paycard.destroy",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

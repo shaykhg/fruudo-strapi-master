@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/premisescharacteristics",
+      "handler": "Premisescharacteristics.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/premisescharacteristics/count",
+      "handler": "Premisescharacteristics.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/premisescharacteristics/:_id",
+      "handler": "Premisescharacteristics.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/premisescharacteristics",
+      "handler": "Premisescharacteristics.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/premisescharacteristics/:_id",
+      "handler": "Premisescharacteristics.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/premisescharacteristics/:_id",
+      "handler": "Premisescharacteristics.destroy",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

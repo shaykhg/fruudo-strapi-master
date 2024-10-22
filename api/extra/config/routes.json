@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/extras",
+      "handler": "Extra.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/extras/count",
+      "handler": "Extra.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/extras/:_id",
+      "handler": "Extra.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/extras",
+      "handler": "Extra.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/extras/:_id",
+      "handler": "Extra.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/extras/:_id",
+      "handler": "Extra.destroy",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

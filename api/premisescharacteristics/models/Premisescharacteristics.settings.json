@@ -1,0 +1,33 @@
+{
+  "connection": "default",
+  "collectionName": "",
+  "info": {
+    "name": "premisescharacteristics",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "default": "",
+      "type": "string"
+    },
+    "type": {
+      "default": "",
+      "type": "enumeration",
+      "enum": [
+        "Single",
+        "Multi"
+      ]
+    },
+    "tooltip": {
+      "default": "",
+      "type": "string"
+    },
+    "enable": {
+      "default": false,
+      "type": "boolean"
+    }
+  }
+}

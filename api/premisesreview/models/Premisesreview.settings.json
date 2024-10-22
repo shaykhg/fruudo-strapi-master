@@ -1,0 +1,45 @@
+{
+  "connection": "default",
+  "collectionName": "premisesreview",
+  "info": {
+    "name": "premisesreview",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "rating": {
+      "default": "",
+      "type": "float"
+    },
+    "review": {
+      "default": "",
+      "type": "string"
+    },
+    "date": {
+      "default": "",
+      "type": "date"
+    },
+    "enable": {
+      "type": "boolean"
+    },
+    "attributes": {
+      "default": "",
+      "type": "json"
+    },
+    "premises": {
+      "default": "",
+      "type": "string"
+    },
+    "booking": {
+      "type": "string"
+    },
+    "expiry": {
+      "type": "date"
+    },
+    "customer": {
+      "model": "customer"
+    }
+  }
+}

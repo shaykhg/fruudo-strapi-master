@@ -1,0 +1,81 @@
+{
+  "connection": "default",
+  "collectionName": "customer",
+  "info": {
+    "name": "customer",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "firstName": {
+      "default": "",
+      "type": "string"
+    },
+    "lastName": {
+      "default": "",
+      "type": "string"
+    },
+    "gender": {
+      "default": "",
+      "type": "enumeration",
+      "enum": [
+        "Male",
+        "Female"
+      ]
+    },
+    "birthday": {
+      "default": "",
+      "type": "date"
+    },
+    "email": {
+      "default": "",
+      "type": "email"
+    },
+    "phone": {
+      "default": "",
+      "type": "string"
+    },
+    "language": {
+      "default": "",
+      "type": "string"
+    },
+    "city": {
+      "default": "",
+      "type": "string"
+    },
+    "country": {
+      "default": "",
+      "type": "string"
+    },
+    "description": {
+      "default": "",
+      "type": "text"
+    },
+    "isChef": {
+      "default": false,
+      "type": "boolean"
+    },
+    "user": {
+      "model": "user",
+      "plugin": "users-permissions"
+    },
+    "dishes": {
+      "collection": "dish",
+      "via": "chef"
+    },
+    "blocked": {
+      "default": false,
+      "type": "boolean"
+    },
+    "avatar": {
+      "default": "",
+      "type": "string"
+    },
+    "undefined": {
+      "collection": "message",
+      "via": "chef"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/reviewattrpremises",
+      "handler": "Reviewattrpremises.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/reviewattrpremises/count",
+      "handler": "Reviewattrpremises.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/reviewattrpremises/:_id",
+      "handler": "Reviewattrpremises.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/reviewattrpremises",
+      "handler": "Reviewattrpremises.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/reviewattrpremises/:_id",
+      "handler": "Reviewattrpremises.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/reviewattrpremises/:_id",
+      "handler": "Reviewattrpremises.destroy",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "connection": "default",
+  "collectionName": "paycard",
+  "info": {
+    "name": "paycard",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "card": {
+      "default": "",
+      "type": "string"
+    },
+    "cvv": {
+      "default": "",
+      "type": "integer"
+    },
+    "expiry": {
+      "default": "",
+      "type": "string"
+    },
+    "name": {
+      "default": "",
+      "type": "string"
+    },
+    "country": {
+      "default": "",
+      "type": "string"
+    },
+    "enable": {
+      "default": false,
+      "type": "boolean"
+    },
+    "default": {
+      "default": false,
+      "type": "boolean"
+    },
+    "customer": {
+      "model": "customer"
+    }
+  }
+}

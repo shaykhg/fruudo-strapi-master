@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/cuisines",
+      "handler": "Cuisine.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/cuisines/count",
+      "handler": "Cuisine.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/cuisines/:_id",
+      "handler": "Cuisine.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/cuisines",
+      "handler": "Cuisine.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/cuisines/:_id",
+      "handler": "Cuisine.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/cuisines/:_id",
+      "handler": "Cuisine.destroy",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

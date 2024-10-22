@@ -1,0 +1,24 @@
+{
+  "connection": "default",
+  "collectionName": "menu",
+  "info": {
+    "name": "menu",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "default": "",
+      "type": "string"
+    },
+    "enable": {
+      "type": "boolean"
+    },
+    "chef": {
+      "default": "",
+      "type": "string"
+    }
+  }
+}

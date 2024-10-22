@@ -1,0 +1,138 @@
+{
+  "connection": "default",
+  "collectionName": "premises",
+  "info": {
+    "name": "premises",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "default": "",
+      "type": "string"
+    },
+    "enable": {
+      "type": "boolean"
+    },
+    "directions": {
+      "default": "",
+      "type": "string"
+    },
+    "heroimage": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload"
+    },
+    "images": {
+      "collection": "file",
+      "via": "related",
+      "plugin": "upload"
+    },
+    "summary": {
+      "default": "",
+      "type": "text"
+    },
+    "characteristics": {
+      "default": "",
+      "type": "string"
+    },
+    "url": {
+      "default": "",
+      "type": "string"
+    },
+    "premises_type": {
+      "default": "",
+      "type": "string"
+    },
+    "food_type": {
+      "default": "",
+      "type": "string"
+    },
+    "menu": {
+      "default": "",
+      "type": "string"
+    },
+    "tables": {
+      "default": "",
+      "type": "json"
+    },
+    "blocked": {
+      "type": "boolean"
+    },
+    "address": {
+      "default": "",
+      "type": "string"
+    },
+    "city": {
+      "default": "",
+      "type": "string"
+    },
+    "country": {
+      "default": "",
+      "type": "string"
+    },
+    "area": {
+      "default": "",
+      "type": "string"
+    },
+    "postcode": {
+      "default": "",
+      "type": "string"
+    },
+    "chef": {
+      "default": "",
+      "type": "string"
+    },
+    "rules": {
+      "default": "",
+      "type": "json"
+    },
+    "booking_notice_days": {
+      "default": "",
+      "type": "string"
+    },
+    "booking_notice_time": {
+      "default": "",
+      "type": "string"
+    },
+    "booking_notice_time_to": {
+      "default": "",
+      "type": "string"
+    },
+    "lat": {
+      "default": "",
+      "type": "string"
+    },
+    "lng": {
+      "default": "",
+      "type": "string"
+    },
+    "blocked_dates": {
+      "default": "",
+      "type": "json"
+    },
+    "timings": {
+      "default": "",
+      "type": "json"
+    },
+    "rating": {
+      "default": "",
+      "type": "float"
+    },
+    "price_range": {
+      "default": "",
+      "type": "integer"
+    },
+    "_chef": {
+      "model": "customer"
+    },
+    "street": {
+      "type": "string"
+    },
+    "cancellationpolicies": {
+      "model": "cancellationpolicies"
+    }
+  }
+}

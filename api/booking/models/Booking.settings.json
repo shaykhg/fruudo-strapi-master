@@ -1,0 +1,77 @@
+{
+  "connection": "default",
+  "collectionName": "booking",
+  "info": {
+    "name": "booking",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "special_instructions": {
+      "default": "",
+      "type": "string"
+    },
+    "dishes": {
+      "default": "",
+      "type": "json"
+    },
+    "charges": {
+      "default": "",
+      "type": "json"
+    },
+    "subtotal": {
+      "default": "",
+      "type": "decimal"
+    },
+    "payment_method": {
+      "default": "",
+      "type": "string"
+    },
+    "customer": {
+      "model": "customer"
+    },
+    "table": {
+      "default": "",
+      "type": "string"
+    },
+    "guests": {
+      "default": "",
+      "type": "string"
+    },
+    "kids": {
+      "default": "",
+      "type": "string"
+    },
+    "booking_date": {
+      "default": "",
+      "type": "string"
+    },
+    "booking_time": {
+      "default": "",
+      "type": "string"
+    },
+    "premises": {
+      "default": "",
+      "type": "string"
+    },
+    "premises_id": {
+      "default": "",
+      "type": "string"
+    },
+    "status": {
+      "default": "",
+      "type": "string"
+    },
+    "chef_email": {
+      "type": "string"
+    },
+    "cancellation_charge": {
+      "type": "string"
+    },
+    "total": {
+      "type": "decimal"
+    }
+  }
+}

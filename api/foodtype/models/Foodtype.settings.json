@@ -1,0 +1,39 @@
+{
+  "connection": "default",
+  "collectionName": "foodtype",
+  "info": {
+    "name": "foodtype",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "default": "",
+      "type": "string"
+    },
+    "enable": {
+      "type": "boolean"
+    },
+    "desc": {
+      "default": "",
+      "type": "string"
+    },
+    "icon": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload"
+    },
+    "chef": {
+      "type": "string"
+    },
+    "dishes": {
+      "collection": "dish",
+      "via": "foodtype"
+    },
+    "menu": {
+      "model": "menu"
+    }
+  }
+}

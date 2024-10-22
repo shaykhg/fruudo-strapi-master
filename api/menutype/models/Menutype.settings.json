@@ -1,0 +1,25 @@
+{
+  "connection": "default",
+  "collectionName": "menutype",
+  "info": {
+    "name": "menutype",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "default": "",
+      "type": "string"
+    },
+    "enable": {
+      "default": false,
+      "type": "boolean"
+    },
+    "food_type": {
+      "default": "",
+      "type": "string"
+    }
+  }
+}

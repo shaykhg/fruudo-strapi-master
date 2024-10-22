@@ -1,0 +1,45 @@
+{
+  "connection": "default",
+  "collectionName": "cancellationpolicies",
+  "info": {
+    "name": "cancellationpolicies",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "default": "",
+      "type": "string"
+    },
+    "policy": {
+      "default": "",
+      "type": "string"
+    },
+    "enable": {
+      "type": "boolean"
+    },
+    "type": {
+      "default": "",
+      "type": "enumeration",
+      "enum": [
+        "Easy",
+        "Medium",
+        "Strict",
+        "Very Strict"
+      ]
+    },
+    "fromHours": {
+      "default": "",
+      "type": "integer"
+    },
+    "toHours": {
+      "default": "",
+      "type": "integer"
+    },
+    "percent": {
+      "type": "integer"
+    }
+  }
+}

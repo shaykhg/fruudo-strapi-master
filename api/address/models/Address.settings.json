@@ -1,0 +1,56 @@
+{
+  "connection": "default",
+  "collectionName": "address",
+  "info": {
+    "name": "address",
+    "description": "This is the addresses which belongs to any entity of the system like a customer, chef or a premises and even a billing address"
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "default": "",
+      "type": "string"
+    },
+    "address": {
+      "default": "",
+      "type": "string"
+    },
+    "postcode": {
+      "default": "",
+      "type": "integer"
+    },
+    "city": {
+      "default": "",
+      "type": "string"
+    },
+    "area": {
+      "default": "",
+      "type": "string"
+    },
+    "country": {
+      "default": "",
+      "type": "string"
+    },
+    "latitude": {
+      "default": "",
+      "type": "decimal"
+    },
+    "longitude": {
+      "default": "",
+      "type": "decimal"
+    },
+    "building": {
+      "default": "",
+      "type": "string"
+    },
+    "street": {
+      "default": "",
+      "type": "string"
+    },
+    "user": {
+      "model": "customer"
+    }
+  }
+}

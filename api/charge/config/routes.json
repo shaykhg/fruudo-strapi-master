@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/charges",
+      "handler": "Charge.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/charges/count",
+      "handler": "Charge.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/charges/:_id",
+      "handler": "Charge.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/charges",
+      "handler": "Charge.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/charges/:_id",
+      "handler": "Charge.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/charges/:_id",
+      "handler": "Charge.destroy",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

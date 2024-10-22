@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/foodtypes",
+      "handler": "Foodtype.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/foodtypes/count",
+      "handler": "Foodtype.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/foodtypes/:_id",
+      "handler": "Foodtype.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/foodtypes",
+      "handler": "Foodtype.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/foodtypes/:_id",
+      "handler": "Foodtype.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/foodtypes/:_id",
+      "handler": "Foodtype.destroy",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

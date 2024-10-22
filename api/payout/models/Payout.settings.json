@@ -1,0 +1,36 @@
+{
+  "connection": "default",
+  "collectionName": "payout",
+  "info": {
+    "name": "payout",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "enable": {
+      "default": false,
+      "type": "boolean"
+    },
+    "due": {
+      "default": "",
+      "type": "date"
+    },
+    "payoutdetails": {
+      "model": "payoutdetails"
+    },
+    "status": {
+      "default": false,
+      "type": "boolean"
+    },
+    "complete": {
+      "default": false,
+      "type": "boolean"
+    },
+    "comment": {
+      "default": "",
+      "type": "string"
+    }
+  }
+}

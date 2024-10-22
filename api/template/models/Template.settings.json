@@ -1,0 +1,39 @@
+{
+  "connection": "default",
+  "collectionName": "template",
+  "info": {
+    "name": "template",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "default": "",
+      "type": "string"
+    },
+    "content": {
+      "default": "",
+      "type": "text"
+    },
+    "enable": {
+      "type": "boolean"
+    },
+    "when": {
+      "default": "",
+      "type": "enumeration",
+      "enum": [
+        "New Order",
+        "New Registration",
+        "Review Request Chef",
+        "Review Request Customer",
+        "New Booking",
+        "Confirm Booking",
+        "Payout Sent",
+        "New Message",
+        "Booking Rejected"
+      ]
+    }
+  }
+}

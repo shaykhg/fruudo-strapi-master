@@ -1,0 +1,40 @@
+{
+  "connection": "default",
+  "collectionName": "table",
+  "info": {
+    "name": "table",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "default": "",
+      "type": "string"
+    },
+    "active": {
+      "type": "boolean"
+    },
+    "orientation": {
+      "default": "",
+      "type": "string"
+    },
+    "style": {
+      "default": "",
+      "type": "string"
+    },
+    "people": {
+      "default": "",
+      "type": "string"
+    },
+    "chef": {
+      "default": "",
+      "type": "string"
+    },
+    "image": {
+      "default": "",
+      "type": "string"
+    }
+  }
+}

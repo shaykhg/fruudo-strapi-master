@@ -1,0 +1,50 @@
+{
+  "connection": "default",
+  "collectionName": "message",
+  "info": {
+    "name": "message",
+    "description": "Message contains conversation between customer and chef"
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "message": {
+      "default": "",
+      "type": "string"
+    },
+    "booking": {
+      "model": "booking"
+    },
+    "customer": {
+      "model": "customer"
+    },
+    "chef": {
+      "model": "customer"
+    },
+    "read": {
+      "type": "boolean"
+    },
+    "enable": {
+      "type": "boolean"
+    },
+    "type": {
+      "default": "",
+      "type": "string"
+    },
+    "premises": {
+      "default": "",
+      "type": "string"
+    },
+    "messages": {
+      "default": "",
+      "type": "json"
+    },
+    "date": {
+      "type": "string"
+    },
+    "premises_name": {
+      "type": "string"
+    }
+  }
+}

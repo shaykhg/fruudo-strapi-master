@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/customerreviews",
+      "handler": "Customerreview.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/customerreviews/count",
+      "handler": "Customerreview.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/customerreviews/:_id",
+      "handler": "Customerreview.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/customerreviews",
+      "handler": "Customerreview.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/customerreviews/:_id",
+      "handler": "Customerreview.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/customerreviews/:_id",
+      "handler": "Customerreview.destroy",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

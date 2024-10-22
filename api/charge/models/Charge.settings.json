@@ -1,0 +1,45 @@
+{
+  "connection": "default",
+  "collectionName": "",
+  "info": {
+    "name": "charge",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "title": {
+      "default": "",
+      "type": "string"
+    },
+    "type": {
+      "default": "",
+      "type": "enumeration",
+      "enum": [
+        "charge",
+        "discount"
+      ]
+    },
+    "amount": {
+      "default": "",
+      "type": "float"
+    },
+    "amount_type": {
+      "default": "",
+      "type": "enumeration",
+      "enum": [
+        "amount",
+        "percentage"
+      ]
+    },
+    "enable": {
+      "default": false,
+      "type": "boolean"
+    },
+    "desc": {
+      "default": "",
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "connection": "default",
+  "collectionName": "dishes",
+  "info": {
+    "name": "dish",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "default": "",
+      "type": "string"
+    },
+    "description": {
+      "default": "",
+      "type": "string"
+    },
+    "ingredients": {
+      "default": "",
+      "type": "string"
+    },
+    "enable": {
+      "type": "boolean"
+    },
+    "category": {
+      "default": "",
+      "type": "string"
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload"
+    },
+    "chef": {
+      "model": "customer",
+      "via": "dishes"
+    },
+    "food_type": {
+      "default": "",
+      "type": "string"
+    },
+    "price": {
+      "default": "",
+      "type": "string"
+    },
+    "people": {
+      "default": "",
+      "type": "string"
+    },
+    "foodtype": {
+      "model": "foodtype",
+      "via": "dishes"
+    }
+  }
+}

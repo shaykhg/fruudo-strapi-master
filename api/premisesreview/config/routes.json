@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/premisesreviews",
+      "handler": "Premisesreview.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/premisesreviews/count",
+      "handler": "Premisesreview.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/premisesreviews/:_id",
+      "handler": "Premisesreview.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/premisesreviews",
+      "handler": "Premisesreview.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/premisesreviews/:_id",
+      "handler": "Premisesreview.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/premisesreviews/:_id",
+      "handler": "Premisesreview.destroy",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

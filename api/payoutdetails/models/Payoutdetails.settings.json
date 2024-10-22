@@ -1,0 +1,44 @@
+{
+  "connection": "default",
+  "collectionName": "payoutdetails",
+  "info": {
+    "name": "payoutdetails",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "default": "",
+      "type": "string"
+    },
+    "swift": {
+      "default": "",
+      "type": "string"
+    },
+    "bank": {
+      "default": "",
+      "type": "string"
+    },
+    "enable": {
+      "default": false,
+      "type": "boolean"
+    },
+    "IBAN": {
+      "default": "",
+      "type": "string"
+    },
+    "account_number": {
+      "default": "",
+      "type": "string"
+    },
+    "default": {
+      "default": false,
+      "type": "boolean"
+    },
+    "customer": {
+      "model": "customer"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/reviewattrcustomers",
+      "handler": "Reviewattrcustomer.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/reviewattrcustomers/count",
+      "handler": "Reviewattrcustomer.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/reviewattrcustomers/:_id",
+      "handler": "Reviewattrcustomer.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/reviewattrcustomers",
+      "handler": "Reviewattrcustomer.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/reviewattrcustomers/:_id",
+      "handler": "Reviewattrcustomer.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/reviewattrcustomers/:_id",
+      "handler": "Reviewattrcustomer.destroy",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

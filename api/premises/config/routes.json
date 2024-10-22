@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/premises",
+      "handler": "Premises.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/premises/count",
+      "handler": "Premises.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/premises/:_id",
+      "handler": "Premises.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/premises",
+      "handler": "Premises.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/premises/:_id",
+      "handler": "Premises.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/premises/:_id",
+      "handler": "Premises.destroy",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

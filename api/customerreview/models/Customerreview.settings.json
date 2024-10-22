@@ -1,0 +1,41 @@
+{
+  "connection": "default",
+  "collectionName": "customerreview",
+  "info": {
+    "name": "customerreview",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "rating": {
+      "default": "",
+      "type": "float"
+    },
+    "enable": {
+      "type": "boolean"
+    },
+    "attributes": {
+      "default": "",
+      "type": "json"
+    },
+    "review": {
+      "default": "",
+      "type": "string"
+    },
+    "customer": {
+      "default": "",
+      "type": "string"
+    },
+    "chef": {
+      "model": "customer"
+    },
+    "booking": {
+      "type": "string"
+    },
+    "expiry": {
+      "type": "date"
+    }
+  }
+}

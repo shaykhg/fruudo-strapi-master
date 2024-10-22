@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/menutypes",
+      "handler": "Menutype.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/menutypes/count",
+      "handler": "Menutype.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/menutypes/:_id",
+      "handler": "Menutype.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/menutypes",
+      "handler": "Menutype.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/menutypes/:_id",
+      "handler": "Menutype.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/menutypes/:_id",
+      "handler": "Menutype.destroy",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
